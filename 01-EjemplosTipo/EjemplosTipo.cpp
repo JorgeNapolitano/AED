@@ -44,13 +44,11 @@ int main(){
     assert( doble(10) == 20);
     assert( doble(10) != 12);
 
-    //Punto extra 6.1
-
     //Punto extra 6.2
     assert( 10*0.1 == 1.0);
     assert( 10*0.1 != 1.0);
-    /*Pueden complilar los dos a la vez creo que porque se tratan de valores reales y 
-    por ejemplo double(0.1) = 0.10...056. Entonces matematicamente, al ponerle fin a la coma, puede ser distinto.
+    /*Pueden complilar los dos a la vez porque se tratan de valores reales y 
+    por ejemplo double(0.1) = 0.1000...056. Entonces matematicamente, al ponerle fin a la coma, puede ser distinto.
     */
 
 }
